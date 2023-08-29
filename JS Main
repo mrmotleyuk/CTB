@@ -1,0 +1,11 @@
+var audioCtx = new(window.AudioContext || window.webkitAudioContext)();
+var sinea = audioCtx.createOscillator();
+sinea.frequency.value = 0;
+sinea.type = "sine";
+sinea.connect(audioCtx.destination);
+sinea.start();
+
+var slider = document.getElementById("myRange");
+slider.addEventListener("input", function() {
+  sinea.frequency.value = slider.value;
+});
