@@ -1,0 +1,40 @@
+/* Set the background color of the H1 to blue */
+.H1 {
+  color: #452836;
+}
+
+.p1 {
+  color: black;
+  font-family: Arial;
+  font-size: 12pt
+}
+
+/* Set the color of the slide bar to red */
+.slider {
+  background-color: red;
+  width: 70%
+}
+
+/* Set the font for H1 to Arial, size 20pt, bold */
+.H1 {
+  font-family: Arial;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+/* Set the page background color to light blue */
+body {
+  background-color: #6A6A6A;
+}
+
+.freqval {
+  font-family: Arial;
+  font-size: 12pt;
+  color: #452836;
+}
+
+.slidecontainer {
+  font-family: Arial;
+  font-size: 12pt;
+  color: #452836
+}
